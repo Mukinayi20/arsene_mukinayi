@@ -8,7 +8,7 @@
                 <h2 class="text-[2.2rem] text-primary pb-8">Témoignage</h2>
             </div>
             <div v-if="temoignages.length > 0" class="w-full desktop:flex  desktop:flex-wrap desktop:justify-center">
-                <Layoutprimary v-for="temoignage in voir" :key="temoignage.id" class="hover:border-accent/50 desktop:w-100 group tablette:w-80 transition-transform duration-800 hover:scale-105 transition-colors hover:bg-gradient-to-r hover:from-[#d8e7e7] hover:to-[#dae9e9] transition-shadow hover:shadow-[0_20px_60px_-20px_rgba(77,159,163,0.20)] ease-in-out">
+                <Layoutprimary v-for="temoignage in voir" :key="temoignage.id" auther-class="hover:border-accent/50 desktop:w-100 group tablette:w-80 transition-transform duration-800 hover:scale-105 transition-colors hover:bg-gradient-to-r hover:from-[#d8e7e7] hover:to-[#dae9e9] transition-shadow hover:shadow-[0_20px_60px_-20px_rgba(77,159,163,0.20)] ease-in-out" class="dark:transition dark:duration-800 dark:hover:from-accent/5 dark:hover:border-accent dark:hover:via-accent/10 dark:hover:to-accent/6">
                     <h3 class="text-lg text-primary">{{ temoignage.fullName }}</h3>
                     <p class="text-base text-mutedForeground">{{ temoignage.metier }} · {{ temoignage.entreprise }}</p>
                     <p class=" text-mutedForeground pt-3">"{{ temoignage.commentaire }}"</p>
