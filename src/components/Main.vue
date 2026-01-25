@@ -4,7 +4,7 @@
         <MesProjets/>
         <Temoignage/>
         <Collaboration/>
-        <Soutien/>
+        <!-- <Soutien/> -->
     </div>
 </template>
 

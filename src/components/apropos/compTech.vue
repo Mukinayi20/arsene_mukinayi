@@ -7,17 +7,20 @@
             <span>Adaptabilité</span>
         </div>
         <div class="group tech-carde p-2 pl-3 pr-3">
-            <span>Rigueur et souci du détailu</span>
+            <span>Souci du détailu</span>
         </div>
         <div class="group tech-carde p-2 pl-3 pr-3">
-            <span>Autonomie et proactivité</span>
+            <span>Autonomie</span>
         </div>
         <div class="group tech-carde p-2 pl-3 pr-3">
-            <span>Sens des responsabilités</span>
+            <span>Proactivité</span>
+        </div>
+        <div class="group tech-carde p-2 pl-3 pr-3">
+            <span>Empathie</span>
         </div>
     </div>
 </template>
 
-<script>
+<script setup>
 
 </script>

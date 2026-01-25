@@ -21,12 +21,12 @@
     
             <div class="flex flex-col items-center gap-6 pt-8">
                 <div v-if="temoignages.length > 3" class="z-1">
-                    <Button @click="showAll = !showAll" extra-class="flex items-center gap-3 bg-background dark:bg-[#151b1f] text-primary/90 border-secondary hover:border-[#00d3f2]/40 w-max transition duration-400 hover:scale-110">
+                    <Button @click="showAll = !showAll" extra-class="flex items-center gap-3 bg-background dark:bg-[#151b1f] text-primary/90 border-secondary hover:border-[#00d3f2]/40 w-max transition duration-400 hover:scale-110 hover:-translate-y-1 ease-in-out">
                         <template #btn-primary>Voir plus</template>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mouse-pointer-click-icon lucide-mouse-pointer-click"><path d="M14 4.1 12 6"/><path d="m5.1 8-2.9-.8"/><path d="m6 12-1.9 2"/><path d="M7.2 2.2 8 5.1"/><path d="M9.037 9.69a.498.498 0 0 1 .653-.653l11 4.5a.5.5 0 0 1-.074.949l-4.349 1.041a1 1 0 0 0-.74.739l-1.04 4.35a.5.5 0 0 1-.95.074z"/></svg>
                     </Button>
                 </div>
-                <Button extra-class="flex items-center gap-3 bg-[#00d3f2]/10 border-[#00d3f2]/40 hover:bg-[#00d3f2]/20 w-max dark:text-primary/90 dark:border-accent/80">
+                <Button extra-class="flex items-center gap-3 bg-[#00d3f2]/10 border-[#00d3f2]/40 transition duration-400 hover:-translate-y-1 hover:bg-[#00d3f2]/20 w-max dark:text-primary/90 dark:border-accent/80 ease-in-out">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus-icon lucide-plus text-primary/90"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
                     <template #btn-primary>Laisser un témoignage</template>
                 </Button>
