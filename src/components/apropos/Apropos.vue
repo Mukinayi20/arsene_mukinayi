@@ -11,11 +11,11 @@
                 <div class="flex justify-between items-center">
                     <h2 class="text-primary text-2xl font-medium">Résumé</h2>
                     <div class="flex gap-4">
-                        <a href="/CV_Arsène_Mukinayi.pdf" class="group p-2 pl-3 pr-3 bg-secondary rounded-lg flex justify-center items-center gap-3 transition duration-400 hover:scale-105 hover:bg-accent/30 ease-in-out">
+                        <a href="/CV_2026-02-03_Arsène_Mukinayi (2).pdf" class="group p-2 pl-3 pr-3 bg-secondary rounded-lg flex justify-center items-center gap-3 transition duration-400 hover:scale-105 hover:bg-accent/30 ease-in-out">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke=currentColor stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye-icon lucide-eye text-primary transition duration-400"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></svg>
                             <span class="hidden tablette:block text-primary font-semibold">Voir le cv</span>
                         </a>
-                        <a href="/CV_Arsène_Mukinayi.pdf" download="/CV_Arsène_Mukinayi.pdf" class="p-2 pl-3 pr-3 gap-3 bg-secondary rounded-lg flex justify-center items-center transition duration-400 hover:scale-105 hover:bg-accent/30 ease-in-out">
+                        <a href="/CV_2026-02-03_Arsène_Mukinayi (2).pdf" download="/CV_Arsène_Mukinayi.pdf" class="p-2 pl-3 pr-3 gap-3 bg-secondary rounded-lg flex justify-center items-center transition duration-400 hover:scale-105 hover:bg-accent/30 ease-in-out">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke=currentColor stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download-icon lucide-download text-primary"><path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/></svg>
                             <span class="hidden tablette:block text-primary font-semibold">Télécharger</span>
                         </a>
