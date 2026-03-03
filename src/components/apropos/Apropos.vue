@@ -27,6 +27,20 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" fill="none" stroke="#4D9FA3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dot-icon lucide-dot"><circle cx="12.1" cy="12.1" r="1"/></svg>
                         <h3 class="text-lg text-primary">compétences techniques</h3>
                     </div>
+                    <div class="pl-2 flex">
+                        <div class="flex items-Center pt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" fill="none" stroke="#6999fb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dot-icon lucide-dot"><circle cx="12.1" cy="12.1" r="1"/></svg>
+                            <h4 class="text-primary">Front</h4>
+                        </div>
+                        <div class="flex items-Center pt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" fill="none" stroke="#e0817f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dot-icon lucide-dot"><circle cx="12.1" cy="12.1" r="1"/></svg>
+                            <h4 class="text-primary">Back</h4>
+                        </div>
+                        <div class="flex items-Center pt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" fill="none" stroke="#f4c033" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dot-icon lucide-dot"><circle cx="12.1" cy="12.1" r="1"/></svg>
+                            <h4 class="text-primary">Outils</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="flex flex-wrap gap-2 pt-5 pb-2">

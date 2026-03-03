@@ -14,23 +14,23 @@
         </div>
 
             <div class="tablette:flex desktop:justify-center flex-col desktop:flex-row flex justify-center">
-                <Layoutprimary autherClass="flex flex-col items-center tablette:w-55">
+                <Layoutprimary autherClass="flex flex-col items-center tablette:w-55 transition duration-700 hover:-translate-y-1 ease-in-out hover:shadow-[0px_10px_93px_-73px_#4D9FA3]">
                     <Like/>
                 </Layoutprimary>
-                <Layoutprimary autherClass="flex flex-col items-center tablette:w-55">
+                <Layoutprimary autherClass="flex flex-col items-center tablette:w-55 transition duration-700 hover:-translate-y-1 ease-in-out hover:shadow-[0px_10px_93px_-73px_#4D9FA3]">
                     <DIscussion/>
                 </Layoutprimary>
-                <Layoutprimary autherClass="flex flex-col items-center tablette:w-55">
+                <Layoutprimary autherClass="flex flex-col items-center tablette:w-55 transition duration-700 hover:-translate-y-1 ease-in-out hover:shadow-[0px_10px_93px_-73px_#4D9FA3]">
                     <Finacement/>
                 </Layoutprimary>
         </div>
-        <div class="flex justify-center">
+        <!-- <div class="flex justify-center">
             <div class="desktop:w-210">
                 <Layoutprimary autherClass="flex flex-col items-center">
                     <FinanceSecondary/>
                 </Layoutprimary>
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 
@@ -40,5 +40,5 @@ import Layoutprimary from '../Layoutprimary.vue';
 import Like from './Like.vue';
 import DIscussion from './DIscussion.vue';
 import Finacement from './Finacement.vue';
-import FinanceSecondary from './FinanceSecondary.vue';
+// import FinanceSecondary from './FinanceSecondary.vue';
 </script>
