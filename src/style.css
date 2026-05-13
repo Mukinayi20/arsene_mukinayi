@@ -1,142 +1,155 @@
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); 
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-
 @theme {
-    --color-background: #F0F1F2;
-    --color-Foreground: #34393D;
-    --color-destructive: #C9555A;
-    --color-destructiveForeground: #F0F1F2;
+    --color-background: #f0f1f2;
+    --color-Foreground: #34393d;
+    --color-destructive: #c9555a;
+    --color-destructiveForeground: #f0f1f2;
 
     --color-bgPrimary: #f7f9fa;
 
-
     --color-bgMesprojet: #e8eaeb;
-    --color-bdApropos: #F1F2F3;
+    --color-bdApropos: #f1f2f3;
 
+    --color-primary: #41494f;
+    --color-primaryForeground: #f0f1f2;
+    --color-secondary: #d5d8db;
+    --color-secondaryForeground: #34393d;
+    --color-accent: #4d9fa3;
+    --color-accentForeground: #f0f1f2;
+    --color-muted: #dadde0;
+    --color-mutedForeground: #6d7378;
 
-    --color-primary: #41494F;
-    --color-primaryForeground: #F0F1F2;
-    --color-secondary: #D5D8DB;
-    --color-secondaryForeground: #34393D;
-    --color-accent: #4D9FA3;
-    --color-accentForeground: #F0F1F2;
-    --color-muted: #DADDE0;
-    --color-mutedForeground: #6D7378;
-
-    --color-card: #F7F9FA;
-    --color-cardForeground: #34393D;
+    --color-card: #f7f9fa;
+    --color-cardForeground: #34393d;
     --color-popover: #edeeef;
-    --color-popoverForeground: #34393D;
+    --color-popoverForeground: #34393d;
 
-    --color-border: #D5D8DB;
-    --color-input: #D5D8DB;
-    --color-ring: #4D9FA3;
+    --color-border: #d5d8db;
+    --color-input: #d5d8db;
+    --color-ring: #4d9fa3;
 }
 
-.dark{
+.dark {
     --color-popover: #0e1216;
     --color-primary: #edeeef;
     --color-Foreground: #131414;
 
-    --color-secondary: #41494F;
+    --color-secondary: #41494f;
 }
 
-@theme{
+@theme {
     --font-sans: "Geist", sans-serif;
 }
 
-@theme{
+@theme {
     --breakpoint-tablette: 700px;
     --breakpoint-desktop: 900px;
 }
 
 @layer {
-    .animate-leaf{
+    .animate-leaf {
         animation: leaf-wind 5s ease-in-out infinite;
     }
 
     @keyframes leaf-wind {
-        0%   { transform: translate(0px, 0px); }
-        50%  { transform: translate(4px, -4px) }
-        100% { transform: translate(0, 0); }
+        0% {
+            transform: translate(0px, 0px);
+        }
+        50% {
+            transform: translate(4px, -4px);
+        }
+        100% {
+            transform: translate(0, 0);
+        }
     }
 
-    .gradient-wind{
+    .gradient-wind {
         background-size: 200% 200%;
-        animation: gradient-wind .5s infinite ease-in-out;
+        animation: gradient-wind 0.5s infinite ease-in-out;
     }
 
     @keyframes gradient-wind {
-        0% { background-postion: 0% 0%}
-        
-        100% {background-position:100% 0%;}
+        0% {
+            background-postion: 0% 0%;
+        }
+
+        100% {
+            background-position: 100% 0%;
+        }
     }
 }
 
-@layer components{
-    body{
-        @apply bg-popover font-sans
+@layer components {
+    body {
+        @apply bg-popover font-sans;
     }
-
-    .nav-bar{
-        @apply flex justify-between p-4 bg-popover/95 text-primary font-medium left-0 w-full shadow border-none
+    .align-center {
+        @apply max-w-6xl mx-auto px-8;
     }
-    .header-profil{
-        @apply w-70 h-70 rounded-full object-cover
+    .test {
+        @apply border-2 border-black;
     }
-    .primary-center{
-        @apply grid place-content-center 
+    .nav-bar {
+        @apply flex justify-between p-4 bg-popover/95 text-primary font-medium left-0 w-full shadow border-none;
     }
-    .btn-primary{
-        @apply p-3 pr-6 pl-6 text-lg rounded-xl border
+    .header-profil {
+        @apply w-70 h-70 rounded-full object-cover;
     }
-    .tech-carde{
-        @apply  border-primary/10 pl-3 pr-3 bg-secondary/20 rounded-lg flex justify-center items-center gap-3 transition duration-400 hover:bg-accent/30 ease-in-out
+    .primary-center {
+        @apply grid place-content-center;
     }
-    .tech-icone{
-        @apply transition-all duration-700 hover:scale-101 ease-in-out
+    .btn-primary {
+        @apply p-3 pr-6 pl-6 text-lg rounded-xl border;
+    }
+    .tech-carde {
+        @apply border-primary/10 pl-3 pr-3 bg-secondary/20 rounded-lg flex justify-center items-center gap-3 transition duration-400 hover:bg-accent/30 ease-in-out;
+    }
+    .tech-icone {
+        @apply transition-all duration-700 hover:scale-101 ease-in-out;
     }
     .progress {
-        @apply w-20 h-2 rounded-2xl
+        @apply w-20 h-2 rounded-2xl;
     }
-    .link-anime{
-        @apply absolute top-6 w-full border border-accent/0 shadow-[22px_-19px_100px_5px_#4D9FA3/0] scale-x-0 transition origin-left duration-400 group-hover:scale-x-100 group-hover:border-accent group-hover:shadow-[22px_-19px_100px_5px_#4D9FA3] ease-in-out
+    .link-anime {
+        @apply absolute top-6 w-full border border-accent/0 shadow-[22px_-19px_100px_5px_#4D9FA3/0] scale-x-0 transition origin-left duration-400 group-hover:scale-x-100 group-hover:border-accent group-hover:shadow-[22px_-19px_100px_5px_#4D9FA3] ease-in-out;
     }
 }
-
-
-
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
-.nav-bar__title{
-    transition: transform 300ms ease-in-out, color 200ms 150ms ease-in-out;
+.nav-bar__title {
+    transition:
+        transform 300ms ease-in-out,
+        color 200ms 150ms ease-in-out;
 }
-.nav-bar__title:hover{
+.nav-bar__title:hover {
     transform: scale(1.1);
     color: #4c9ea2;
 }
 
-.nav-bar__link{
+.nav-bar__link {
     position: relative;
-    transition: transform 200ms ease-in-out, color 200ms ease-in-out;
+    transition:
+        transform 200ms ease-in-out,
+        color 200ms ease-in-out;
 }
 
-.nav-bar__link:hover{
+.nav-bar__link:hover {
     transform: scale(1.1);
-    color: #41494F;
+    color: #41494f;
 }
 
 .star-canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: block;
 }
