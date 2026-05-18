@@ -35,7 +35,7 @@
                 </div>
                 <div class="sm:max-md:pt-100">
                     <div class="flex justify-center items-center primary-center mt-7 h-5 gap-4">
-                        <h1 class="tablette:text-[3.4rem] text-[2.3rem] text-primary transition duration-500 hover:animate-leaf ease-in-out dark:text-primary/80">Arsène Mukinayi</h1>
+                        <h1 class="tablette:text-[3.4rem] max-sm:text-3xl text-[2.3rem] text-primary transition duration-500 hover:animate-leaf ease-in-out dark:text-primary/80">Arsène Mukinayi</h1>
                         <div class="group border border-accent rounded-full p-2 transition duration-400 hover:scale-110 ease-in-out cursor-pointer animate-leaf">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4D9FA3" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-badge-info-icon lucide-badge-info transition duration-400 group-hover:rotate-15">
                                 <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" />

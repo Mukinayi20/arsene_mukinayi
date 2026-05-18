@@ -1,9 +1,9 @@
 <template>
     <div class="flex flex-wrap gap-4 text-primary/90">
-        <div class="group tech-carde p-2 pl-3 pr-3 w-full">
+        <div class="group tech-carde p-2 pl-3 pr-3 lg:w-full">
             <span>Esprit collaboratif</span>
         </div>
-        <div class="group w-full tech-carde p-2 pl-3 pr-3">
+        <div class="group lg:w-full tech-carde p-2 pl-3 pr-3">
             <span>Adaptabilité</span>
         </div>
         <div class="group tech-carde p-2 pl-3 pr-3">

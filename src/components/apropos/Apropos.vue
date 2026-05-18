@@ -10,8 +10,8 @@
             <Layoutprimary class="mt-15 desktop:w-full transition duration-700 hover:-translate-y-1 ease-in-out hover:shadow-[0px_10px_93px_-73px_#4D9FA3]">
                 <div class="flex flex-col justify-between">
                     <div class="flex justify-between items-center">
-                        <h2 class="text-primary text-2xl font-medium pl-10">Résumé</h2>
-                        <div class="flex gap-4 pr-10">
+                        <h2 class="text-primary text-2xl font-medium lg:pl-10">Résumé</h2>
+                        <div class="flex gap-4 lg:pr-10">
                             <a href="/CV_2026-02-03_Arsène_Mukinayi (2).pdf" class="group p-2 pl-3 pr-3 bg-secondary rounded-lg flex justify-center items-center gap-3 transition duration-400 hover:scale-105 hover:bg-accent/30 ease-in-out">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye-icon lucide-eye text-primary transition duration-400">
                                     <path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0" />
@@ -30,7 +30,7 @@
                         </div>
                     </div>
                     <div>
-                        <p class="text-lg text-mutedForeground pt-10 p-10">"Développeur web full stack actuellement actif en freelance, je conçois et développe des applications web modernes adaptées aux besoins des utilisateurs. À la recherche de nouvelles opportunités professionnelles, je reste également ouvert aux missions freelance et aux collaborations dans le domaine du développement web."</p>
+                        <p class="max-sm:hidden text-lg max-sm:text-center text-mutedForeground pt-10 p-10">"Développeur web full stack actuellement actif en freelance, je conçois et développe des applications web modernes adaptées aux besoins des utilisateurs. À la recherche de nouvelles opportunités professionnelles, je reste également ouvert aux missions freelance et aux collaborations dans le domaine du développement web."</p>
                         <div class="lg:flex justify-around">
                             <div class="lg:w-[50%]">
                                 <div class="flex items-Center pt-5">
