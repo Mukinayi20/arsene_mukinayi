@@ -1,13 +1,13 @@
 <template>
     <div class="flex flex-wrap gap-4 text-primary/90">
-        <div class="group tech-carde p-2 pl-3 pr-3">
+        <div class="group tech-carde p-2 pl-3 pr-3 w-full">
             <span>Esprit collaboratif</span>
         </div>
-        <div class="group tech-carde p-2 pl-3 pr-3">
+        <div class="group w-full tech-carde p-2 pl-3 pr-3">
             <span>Adaptabilité</span>
         </div>
         <div class="group tech-carde p-2 pl-3 pr-3">
-            <span>Souci du détailu</span>
+            <span>Souci du détail</span>
         </div>
         <div class="group tech-carde p-2 pl-3 pr-3">
             <span>Autonomie</span>
@@ -21,6 +21,4 @@
     </div>
 </template>
 
-<script setup>
-
-</script>
+<script setup></script>
