@@ -12,6 +12,6 @@
 </template>
 
 <script setup>
-import TitleCard from "../TitleCard.vue";
+import TitleCard from "../../layout/TitleCard.vue";
 import ComposantProjet from "./ComposantProjet.vue";
 </script>

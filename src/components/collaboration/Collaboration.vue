@@ -42,6 +42,6 @@
 </template>
 
 <script setup>
-import TitleCard from "../TitleCard.vue";
-import Button from "../Button.vue";
+import TitleCard from "../../layout/TitleCard.vue";
+import Button from "../../layout/Button.vue";
 </script>

@@ -46,8 +46,8 @@
 
 <script setup>
 import { ref } from "vue";
-import Layoutprimary from "./Layoutprimary.vue";
-import Button from "./Button.vue";
+import Layoutprimary from "../layout/Layoutprimary.vue";
+import Button from "../layout/Button.vue";
 import { formatDate, voirPlusMooin } from "@/js/config";
 
 const temoignages = ref([]);

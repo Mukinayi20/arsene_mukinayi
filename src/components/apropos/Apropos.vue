@@ -113,8 +113,8 @@
 
 <script setup>
 import Cardtech from "./Cardtech.vue";
-import Layoutprimary from "../Layoutprimary.vue";
-import ContentCard from "../ContentCard.vue";
-import TitleCard from "../TitleCard.vue";
+import Layoutprimary from "../../layout/Layoutprimary.vue";
+import ContentCard from "../../layout/ContentCard.vue";
+import TitleCard from "../../layout/TitleCard.vue";
 import compTech from "./compTech.vue";
 </script>

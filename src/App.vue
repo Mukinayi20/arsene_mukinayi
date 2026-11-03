@@ -1,19 +1,9 @@
 <template>
-
     <div class="">
-        <Background/>
-        
-        <HeaderPage/>
-        <Main/>
-        <Footer/>
+        <RouterView />
     </div>
 </template>
 
-<script setup>
-import HeaderPage from './components/HeaderPage.vue';
-import Main from './components/Main.vue';
-import Footer from './components/Footer.vue';
-import Background from './components/Background.vue';
-</script>
+<script setup></script>
 
 <style scoped></style>

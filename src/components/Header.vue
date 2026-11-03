@@ -20,8 +20,11 @@
                 </a>
             </div>
             <div class="flex gap-4">
-                <BtnTheme />
-                <a href="#contact" class="relative group p-2 text-accent font-medium border border-accent/30 rounded-xl pl-4 pr-4 transition-transform duration-500 hover:scale-105 origin-left ease-in-out">
+                <div class="flex justify-center items-center border-2 border-accent/30 pl-4 pr-4 rounded-xl transition-transform duration-500 hover:scale-105 origin-left ease-in-out">
+                    <RouterLink to="/resume" class="">Résumé</RouterLink>
+                </div>
+                <!-- <BtnTheme /> -->
+                <a href="#contact" class="relative group p-2 text-accent font-medium border-2 border-accent/30 rounded-xl pl-4 pr-4 transition-transform duration-500 hover:scale-105 origin-left ease-in-out">
                     <div class="absolute inset-0 w-0 bg-accent/10 rounded-xl transition-all duration-500 ease-in-out group-hover:w-full"></div>
                     <div class="relative z-10">Me contacter</div>
                 </a>
@@ -30,7 +33,7 @@
         <div class="flex justify-center">
             <div class="w-[70%] flex flex-col xl:flex-row items-center justify-between mt-50">
                 <div class="primary-center" ref="bigImage">
-                    <img class="h-120 object-cover border-2 border-accent/50 rounded-2xl" src="/IMG-20250901-WA0029.jpg" alt="Profil" />
+                    <img class="h-120 object-cover border-2 border-accent/50 rounded-2xl" src="/src/assets/images/WhatsApp Image 2026-06-28 at 5.33.36 AM.jpeg" alt="Profil" />
                     <!-- header-profil transition-transfordesktop:w200m duration-20 ease-in-out shadow-[0px_0px_50px_-15px_#4D9FA3]" :style="{ transform: `scale(${scale})` } "effer pendant le scrole du profil" -->
                 </div>
                 <div class="flex flex-col">
@@ -70,7 +73,7 @@
 
 <script setup>
 import { onMounted, onUnmounted, ref } from "vue";
-import Button from "./Button.vue";
+import Button from "../layout/Button.vue";
 import BtnTheme from "./btn/BtnTheme.vue";
 import ReseauxSociaux from "./collaboration/ReseauxSociaux.vue";
 

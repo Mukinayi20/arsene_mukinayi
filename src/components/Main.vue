@@ -1,15 +1,15 @@
 <template>
     <div>
-        <Apropos/>
-        <MesProjets/>
-        <Temoignage/>
-        <Collaboration/>
+        <Apropos />
+        <MesProjets />
+        <Temoignage />
+        <Collaboration />
     </div>
 </template>
 
 <script setup>
-import MesProjets from './projet/MesProjets.vue';
-import Apropos from './apropos/Apropos.vue';
-import Temoignage from './Temoignage.vue';
-import Collaboration from './collaboration/Collaboration.vue';
+import MesProjets from "../components/projet/MesProjets.vue";
+import Apropos from "../components/apropos/Apropos.vue";
+import Temoignage from "../components/Temoignage.vue";
+import Collaboration from "../components/collaboration/Collaboration.vue";
 </script>
